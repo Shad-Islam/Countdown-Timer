@@ -8,8 +8,41 @@
 .container{
     width: 100vw;
     height: 100vh;
+    padding: 140px 0px;
+    text-align: center;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position-y: center;
     background-image: url(../images/nick-fewings-YkA7CLrMg8g-unsplash.jpg);
+}
+.container .heading{
+    font-size: 60px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.container .text{
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: rgba(240, 248, 255, 0.736);
+}
+.launch-time{
+    display: flex;
+    justify-content: center;
+}
+
+.launch-time div{
+    flex-basis:100px;
+}
+.launch-time div p{
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.launch-time div span{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgba(240, 248, 255, 0.736);
 }
